@@ -1,0 +1,17 @@
+-
+  name: 'Get user list'
+  uriPattern: 'api/userlist'
+  defaults:
+    '@package': 'SchamsNet.Routingexample'
+    '@plugin': 'Routingexample'
+    '@controller': 'Rest'
+    '@action': 'userlist'
+
+-
+  name: 'Get user details'
+  uriPattern: 'api/userdetails/{userid}'
+  defaults:
+    '@package': 'SchamsNet.Routingexample'
+    '@plugin': 'Routingexample'
+    '@controller': 'Rest'
+    '@action': 'userdetails'

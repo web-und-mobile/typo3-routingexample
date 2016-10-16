@@ -1,0 +1,11 @@
+plugin.tx_routingexample {
+  persistence {
+    classes {
+      SchamsNet\Routingexample\Domain\Model\Userlist {
+        mapping {
+          tableName = be_users
+        }
+      }
+    }
+  }
+}
